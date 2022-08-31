@@ -1,15 +1,22 @@
 # Getting Started
-Implementation copied from https://gitlab.com/videolearning/udacity-java.git
-using Spring Boot 2.1.6.RELEASE and graphql-spring-boot-starter (5.0.2) together with graphql-java-tools (5.2.4)
+Implementation copied from [Official Udacity Exercise Gitlab-Repo](https://gitlab.com/videolearning/udacity-java.git)
 
-# Example Query
+### Versions and Dependencies
+Spring Boot 2.1.6.RELEASE, using 
+* graphql-spring-boot-starter (5.0.2), together with 
+* graphql-java-tools (5.2.4)
+
+... requiring the use of the interfaces GraphQLQueryResolver and GraphQLMutationResolver
+
+### Example Query
 Navigate to http://localhost:8080/graphiql and place following query
-
+```
 {
     findAllLocations {
         name
     }
 }
+```
 
 ### Reference Documentation
 For further reference, please consider the following sections:

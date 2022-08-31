@@ -1,5 +1,7 @@
 # Getting Started
-Implementation copied from [Official Udacity Exercise Gitlab-Repo](https://gitlab.com/videolearning/udacity-java.git)
+Navigate to http://localhost:8080/graphql/schema.json 
+to see the implementation copied from 
+[Official Udacity Exercise Gitlab-Repo](https://gitlab.com/videolearning/udacity-java.git)
 
 ### Versions and Dependencies
 Spring Boot 2.1.6.RELEASE, using 
@@ -9,7 +11,8 @@ Spring Boot 2.1.6.RELEASE, using
 ... requiring the use of the interfaces GraphQLQueryResolver and GraphQLMutationResolver
 
 ### Example Query
-Navigate to http://localhost:8080/graphiql and place following query
+
+Navigate to http://localhost:8080/graphiql and place following query:
 ```
 {
     findAllLocations {

@@ -8,7 +8,7 @@ Spring Boot 2.1.6.RELEASE, using
 * graphql-spring-boot-starter (5.0.2), together with 
 * graphql-java-tools (5.2.4)
 
-... requiring the use of the interfaces GraphQLQueryResolver and GraphQLMutationResolver
+... requiring the use of the interfaces GraphQLQueryResolver and GraphQLMutationResolver (test)
 
 ### Example Query
 
